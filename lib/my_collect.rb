@@ -5,7 +5,7 @@ def my_collect(languages)
   while i > languages.length 
     collecton << yield(languages.upcase)
     i += 1
-    binding.pry 
+   
   end
   collection 
 end  
